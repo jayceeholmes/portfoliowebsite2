@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 150%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+  color: silver !important;
+}

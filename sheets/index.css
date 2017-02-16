@@ -1,0 +1,43 @@
+
+/* Styles the Document Background*/
+body{
+  background-color: black;
+
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  color: white;
+
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styles the Document Text */
+h3{
+  font-size: 210%;
+  font-weight: 100;
+}
+
+#bio{
+  font-size: 115%;
+  font-weight: 100;
+  margin-top: -5%;
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  display: none;
+}
+
+#instruct{
+  width: 100%;
+  text-align: center;
+}
