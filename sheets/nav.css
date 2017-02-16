@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 ul {
     list-style-type: none;
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
@@ -10,9 +14,9 @@ ul {
 
 a:link, a:active, a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a:hover{
-  color: silver !important;
+  color: lightslategrey !important;
 }
