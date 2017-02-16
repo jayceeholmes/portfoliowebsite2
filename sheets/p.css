@@ -13,7 +13,7 @@ body{
   font-weight: 100;
   background-color: black;
   color: white;
-  width: 98.5%;
+  width: 100%;
 }
 
 .sub-title{
@@ -50,5 +50,9 @@ mark{
 
 
 iframe{
+  max-width: 100%;
+}
+
+img{
   max-width: 100%;
 }
