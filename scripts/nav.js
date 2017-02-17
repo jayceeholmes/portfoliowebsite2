@@ -32,6 +32,7 @@ document.addEventListener('mousemove', function(event) {
         document.getElementById('me').style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
         document.getElementById('github').style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
         document.getElementById('blog').style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
+        document.getElementById('resume').style.color = 'rgb(' + 255 + ',' + 255 + ',' + 255 + ')';
 
 
     } else if (event.clientX > window.innerWidth*(3/4) || (event.clientX < window.innerWidth/4)) {
@@ -47,6 +48,8 @@ document.addEventListener('mousemove', function(event) {
         document.getElementById('me').style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
         document.getElementById('github').style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
         document.getElementById('blog').style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
+        document.getElementById('resume').style.color = 'rgb(' + 0 + ',' + 0 + ',' + 0 + ')';
+
     }
 
 });
